@@ -1,13 +1,125 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tutoriais-captura-tela</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoriais de Captura de Tela</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">Tutoriais de Captura de Tela</a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="windows.html">Windows</a></li>
+                    <li><a href="ios.html">iOS</a></li>
+                    <li><a href="android.html">Android</a></li>
+                    <li><a href="google-classroom.html">Google Classroom</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Aprenda a Fazer Capturas de Tela</h1>
+            <p>Tutoriais simples e práticos para capturar telas em diferentes dispositivos e como utilizá-las no Google Classroom.</p>
+        </div>
+    </section>
+
+    <!-- Cards dos Sistemas -->
+    <section class="section">
+        <div class="container">
+            <div class="cards-container">
+                <!-- Card Windows -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/icons/windows-icon.png" alt="Windows" onerror="this.src='https://via.placeholder.com/150x150?text=Windows'">
+                    </div>
+                    <div class="card-content">
+                        <h3>Windows</h3>
+                        <p>Aprenda diferentes métodos para capturar telas no Windows, usando teclas de atalho ou ferramentas nativas.</p>
+                        <a href="windows.html" class="btn">Ver Tutoriais</a>
+                    </div>
+                </div>
+
+                <!-- Card iOS -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/icons/ios-icon.png" alt="iOS" onerror="this.src='https://via.placeholder.com/150x150?text=iOS'">
+                    </div>
+                    <div class="card-content">
+                        <h3>iOS</h3>
+                        <p>Descubra como fazer capturas de tela em iPhones e iPads, com ou sem botão Home.</p>
+                        <a href="ios.html" class="btn">Ver Tutoriais</a>
+                    </div>
+                </div>
+
+                <!-- Card Android -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/icons/android-icon.png" alt="Android" onerror="this.src='https://via.placeholder.com/150x150?text=Android'">
+                    </div>
+                    <div class="card-content">
+                        <h3>Android</h3>
+                        <p>Conheça os métodos para capturar telas em diferentes modelos de smartphones e tablets Android.</p>
+                        <a href="android.html" class="btn">Ver Tutoriais</a>
+                    </div>
+                </div>
+
+                <!-- Card Google Classroom -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/icons/classroom-icon.png" alt="Google Classroom" onerror="this.src='https://via.placeholder.com/150x150?text=Google+Classroom'">
+                    </div>
+                    <div class="card-content">
+                        <h3>Google Classroom</h3>
+                        <p>Saiba como anexar suas capturas de tela em atividades do Google Classroom de forma rápida e fácil.</p>
+                        <a href="google-classroom.html" class="btn">Ver Tutoriais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre o Site -->
+    <section class="section" style="background-color: #f1f1f1;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Este Site</h2>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p>Este site foi criado para centralizar tutoriais sobre como fazer capturas de tela em diferentes sistemas operacionais e como utilizá-las em atividades do Google Classroom.</p>
+                <p>Todos os tutoriais são apresentados em formatos variados (vídeos, textos e imagens) para facilitar o aprendizado de acordo com sua preferência.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Tutoriais de Captura de Tela. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
 </html>
